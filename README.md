@@ -26,6 +26,8 @@ betül turkut
 4-betül turkut
 5-selin tuba ay
 6-nslihan
+aysen akbal
+
 7-
 >>>>>>> 81963db81b692ea068bcd9060aebc437e9ecafdd
 merge için komutlar
@@ -33,3 +35,5 @@ git add README.md
 git commit -m "comment"
 git push
 >>>>>>> 5e02a2cffa31f67a4d1925fd768a550e1553ec02
+
+aysen akbal

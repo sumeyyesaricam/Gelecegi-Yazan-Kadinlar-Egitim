@@ -2,6 +2,7 @@
 Öğrenci İsimleri
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Sümeyye Çelebi
 =======
 sena caybasi
@@ -18,3 +19,13 @@ Sümeyye Çelebi
 şeyma özanar Sümeyye Çelebi
 >>>>>>> 3384f393f7f1bbf2f23f248eb107ed14a6706cc7
 Sümeyye Çelebi
+=======
+1-sena caybasi
+2-firuze karaoğlu
+3-şeyma özanar
+4-betül turkut
+5-selin tuba ay
+6-nslihan
+7-
+>>>>>>> 81963db81b692ea068bcd9060aebc437e9ecafdd cd
+cd sümeyye çelebi

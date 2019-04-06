@@ -21,3 +21,7 @@ firuze karaoğlu
 6-nslihan
 7-
 >>>>>>> 81963db81b692ea068bcd9060aebc437e9ecafdd
+merge için komutlar
+git add README.md
+git commit -m "comment"
+git push

@@ -11,7 +11,7 @@ firuze karaoğlu
 8luen8
 =======
 şeyma özanar
->>>>>>> 3384f393f7f1bbf2f23f248eb107ed14a6706cc7
+
 =======
 1-sena caybasi
 2-firuze karaoğlu

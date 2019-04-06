@@ -1,2 +1,2 @@
 # Gelecegi-Yazan-Kadinlar-Egitim 
-Öğrenciler
+Öğrenci İsimleri

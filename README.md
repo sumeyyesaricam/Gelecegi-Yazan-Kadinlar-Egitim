@@ -1,6 +1,7 @@
 ﻿# Gelecegi-Yazan-Kadinlar-Egitim 
 Öğrenci İsimleri
 <<<<<<< HEAD
+<<<<<<< HEAD
 beyza isbay
 =======
 sena caybasi
@@ -11,3 +12,12 @@ firuze karaoğlu
 =======
 şeyma özanar
 >>>>>>> 3384f393f7f1bbf2f23f248eb107ed14a6706cc7
+=======
+1-sena caybasi
+2-firuze karaoğlu
+3-şeyma özanar
+4-betül turkut
+5-selin tuba ay
+6-nslihan
+7-
+>>>>>>> 81963db81b692ea068bcd9060aebc437e9ecafdd

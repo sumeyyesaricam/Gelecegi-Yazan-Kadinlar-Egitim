@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="397dp"
+        android:layout_height="155dp"
+        android:layout_marginTop="92dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="395dp"
+        android:layout_height="281dp"
+        android:text="Sağlıklı beslenebilmek ve sağlıklı yaşayabilmek için 10 altın öğüt  Beslenmenizden zevk alın. Beslenmenizde çeşitliliğe özen gösterin. Beslenmenizde tam tahıllara yeterince yer verin. Bol miktarda sebze ve meyve yiyin. Yağ tüketimini azaltın. Şeker ve şekerli besinleri çok sık tüketmeyin. Daha az tuz tüketin. Bol su için. Hareketli olun, sağlıklı vücut ağırlığınızı koruyun. Düzenli beslenin, kahvaltıyı ihmal etmeyin."
+        android:textColor="@android:color/background_dark"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+</android.support.constraint.ConstraintLayout>

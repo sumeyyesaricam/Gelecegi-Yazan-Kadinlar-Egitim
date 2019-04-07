@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">BottomNavigationSample</string>
+    <string name="login">Giriş Yap</string>
+    <string name="book">Kitap</string>
+    <string name="music">Müzik</string>
+    <string name="favorite">Beğendiklerim</string>
+</resources>
+

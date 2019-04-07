@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/health"
+        android:layout_width="380dp"
+        android:layout_height="191dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.11"
+        app:srcCompat="@drawable/saglik" />
+
+    <TextView
+        android:id="@+id/textHealth"
+        android:layout_width="342dp"
+        android:layout_height="308dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="276dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="
+
+        Sağlıklı beslenebilmek ve sağlıklı yaşayabilmek
+        için 10 altın öğüt
+
+      1-) Beslenmenizden zevk alın.
+      2-) Beslenmenizde çeşitliliğe özen gösterin.
+      3-)Beslenmenizde tam tahıllara yeterince yer
+       verin.
+      4-)Bol miktarda sebze ve meyve yiyin.
+      5-) Yağ tüketimini azaltın.
+      6-) Şeker ve şekerli besinleri çok sık tüketmeyin.
+      7-) Daha az tuz tüketin.
+      8-) Bol su için.
+      9-) Hareketli olun, sağlıklı vücut ağırlığınızı
+       koruyun.
+      10-) Düzenli beslenin, kahvaltıyı ihmal etmeyin."
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035" />
+</android.support.constraint.ConstraintLayout>

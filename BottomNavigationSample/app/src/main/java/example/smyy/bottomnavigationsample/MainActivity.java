@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
                         } else if (menuItem.getItemId() == R.id.music) {
                             selectedFragment = new HealthFragment();
                         } else if (menuItem.getItemId() == R.id.book) {
-                            selectedFragment = new FavoriteFragment();
+                            selectedFragment = new DietListFragment();
                         }
                         transaction.replace(R.id.frame_layout, selectedFragment);
                         transaction.commit();

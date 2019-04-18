@@ -18,6 +18,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.26"
         app:srcCompat="@mipmap/ic_launcher" />
 
     <TextView
@@ -37,6 +38,7 @@
         android:layout_height="2dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
         android:background="@android:color/darker_gray"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -63,7 +65,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="TextView" />
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -77,6 +79,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:drawableStart="@drawable/ic_store_white_24dp"
+                android:drawableLeft="@drawable/ic_store_white_24dp"
                 android:textColor="@android:color/white"
                 android:layout_marginRight="10dp"
                 android:background="@android:color/holo_red_light"
@@ -87,6 +92,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_marginStart="10dp"
+                android:paddingLeft="10dp"
+                android:drawableStart="@drawable/ic_store_white_24dp"
+                android:drawableLeft="@drawable/ic_store_white_24dp"
                 android:textColor="@android:color/white"
                 android:background="@android:color/holo_red_dark"
                 android:text="Hemen Al" />

@@ -20,7 +20,7 @@ public class ProductDetailFragment extends Fragment {
         TextView txtPrice=view.findViewById(R.id.txtPrice);
         txtPrice.setText(getArguments().getString("price"));
         getActivity().setTitle(getArguments().getString("name"));
-        //imageProduct.setImageResource(getArguments().getInt("image"));
+        imageProduct.setImageResource(getArguments().getInt("image"));
         return view;
     }
 

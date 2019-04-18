@@ -32,20 +32,7 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.MyViewHo
             txtProductName = (TextView) itemView.findViewById(R.id.txtProductName);
             txtPrice = (TextView) itemView.findViewById(R.id.txtPrice);
             imageProduct = (ImageView) itemView.findViewById(R.id.imageProduct);
-            itemView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    ProductDetailFragment productDetailFragment = new ProductDetailFragment();
-                    Bundle args = new Bundle();
-                    args.putString("name", txtProductName.getText().toString());
-                    args.putString("price", txtPrice.getText().toString());
-                    //args.putInt("image", Integer.parseInt(imageProduct.getDrawable().toString()));
-                    productDetailFragment.setArguments(args);
-                    ((MainActivity) itemView.getContext()).getFragmentManager().beginTransaction()
-                            .replace(R.id.frame_layout, productDetailFragment)
-                            .commit();
-                }
-            });
+
         }
     }
 
@@ -63,11 +50,24 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.MyViewHo
     }
 
     @Override
-    public void onBindViewHolder(MyViewHolder holder, int position) {
+    public void onBindViewHolder(final MyViewHolder holder, final int position) {
         holder.txtProductName.setText(productList.get(position).getProductName());
         holder.txtPrice.setText(String.valueOf(productList.get(position).getPrice()) + " TL");
         holder.imageProduct.setImageResource(productList.get(position).getProductImage());
-
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ProductDetailFragment productDetailFragment = new ProductDetailFragment();
+                Bundle args = new Bundle();
+                args.putString("name", productList.get(position).getProductName());
+                args.putString("price", String.valueOf(productList.get(position).getPrice()) + " TL");
+                args.putInt("image", productList.get(position).getProductImage());
+                productDetailFragment.setArguments(args);
+                ((MainActivity) holder.itemView.getContext()).getFragmentManager().beginTransaction()
+                        .replace(R.id.frame_layout, productDetailFragment)
+                        .commit();
+            }
+        });
     }
 
     @Override

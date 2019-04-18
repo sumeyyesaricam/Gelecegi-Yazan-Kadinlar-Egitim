@@ -33,14 +33,14 @@ public class FurnitureFragment extends Fragment {
 
     public List<Product> getData(){
         List<Product> products=new ArrayList<Product>();
-        products.add(new Product(1,R.drawable.koltuk,500
+        products.add(new Product(1,R.drawable.koltuk,750
                 ,"Sigma Tasarım Asya 2'li Koltuk - Turkuaz"));
         products.add(new Product(2,R.drawable.raf,500
                 ,"Nav Decoration Merlin 3'lü Duvar Rafı - Beyaz"));
-        products.add(new Product(3,R.mipmap.ic_launcher,500
-                ,"Kurşun Kalem"));
-        products.add(new Product(4,R.mipmap.ic_launcher,500
-                ,"Kurşun Kalem"));
+        products.add(new Product(3,R.drawable.masa,1190
+                ,"House Line LG-5 Legos Mona Lisa Masa Takımı (4 Sandalyeli) - Siyah/Beyaz"));
+        products.add(new Product(4,R.drawable.gardrop,2379
+                ,"Boo Sheila 4 Kapılı 4 Çekmeceli Gardırop - Siyah / Kahverengi"));
         return products;
     }
 }

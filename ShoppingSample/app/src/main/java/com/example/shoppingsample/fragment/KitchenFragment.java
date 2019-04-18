@@ -35,14 +35,14 @@ public class KitchenFragment extends Fragment {
 
     public List<Product> getData(){
         List<Product> products=new ArrayList<Product>();
-        products.add(new Product(1,R.mipmap.ic_launcher,500
-                ,"Kaşık"));
-        products.add(new Product(2,R.mipmap.ic_launcher,500
-                ,"Tencere"));
-        products.add(new Product(3,R.mipmap.ic_launcher,500
-                ,"Çatal"));
-        products.add(new Product(4,R.mipmap.ic_launcher,500
-                ,"Bardak"));
+        products.add(new Product(1,R.drawable.tencere,64
+                ,"Papilla Entel Karnıyarık Tencere - 26 cm"));
+        products.add(new Product(2,R.drawable.kasik,89
+                ,"The Mia Çay Kaşığı 6 Parça - Rose"));
+        products.add(new Product(3,R.drawable.bardak,52
+                ,"Lav Diamond 18 Parça Cam Bardak Takımı"));
+        products.add(new Product(4,R.drawable.kap,6
+                ,"Lav DT0217 Cam Saklama Kabı"));
         return products;
     }
 }

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="KATEGORİLER">
+        <menu>
+            <item
+                android:id="@+id/nav_mobilya"
+                android:title="Mobilya" />
+            <item
+                android:id="@+id/nav_mutfak"
+                android:title="Mutfak" />
+            <item
+                android:id="@+id/nav_deko"
+                android:title="Ev Dekorasyon" />
+            <item
+                android:id="@+id/nav_tekstil"
+                android:title="Ev Tekstili" />
+            <item
+                android:id="@+id/nav_aydinlatma"
+                android:title="Aydınlatma" />
+            <item
+                android:id="@+id/nav_banyo"
+                android:title="Banyo" />
+            <item
+                android:id="@+id/nav_bahce"
+                android:title="Yapıı Market-Bahçe" />
+            <item
+                android:id="@+id/nav_elektrikli"
+                android:title="Elektrikli Ev Aletleri" />
+            <item
+                android:id="@+id/nav_kampanya"
+                android:title="Kampanyalar" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,6 +1,0 @@
-DEBUG.consoleOpenOnErr=false
-DEBUG.consoleOpenOnOut=false
-eclipse.preferences.version=1
-org.eclipse.debug.ui.PREF_FILTER_LAUNCH_TYPES=true
-org.eclipse.debug.ui.PREF_FILTER_TYPE_LIST=org.eclipse.cdt.launch.attachLaunchType,org.eclipse.cdt.launch.postmortemLaunchType,org.eclipse.cdt.launch.remoteApplicationLaunchType,org.eclipse.cdt.debug.core.localCoreBuildLaunchConfigType,org.eclipse.cdt.launch.launchGroup,
-org.eclipse.debug.ui.switch_perspective_on_suspend=always

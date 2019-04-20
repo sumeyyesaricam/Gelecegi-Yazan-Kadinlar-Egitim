@@ -28,13 +28,12 @@ hilaldiler
 5-selin tuba ay
 6-nslihan
 aysen akbal
+senanur sahin
+sümeyye çelebi
 
-7-cd
-cd sümeyye çelebi
 merge için komutlar
 git add README.md
 git commit -m "comment"
 git push
 
-aysen akbal
-senanur sahin
+

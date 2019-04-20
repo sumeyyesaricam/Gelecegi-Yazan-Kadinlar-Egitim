@@ -31,7 +31,9 @@ public class MainActivity extends AppCompatActivity {
                     transaction.commit();
                 }
                 else if(menuItem.getItemId()==R.id.music){
-                    Toast.makeText(MainActivity.this,"Müziklerim",Toast.LENGTH_SHORT).show();
+                    FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+                    transaction.replace(R.id.frame_layout, new DietListFragment());
+                    transaction.commit();
                 }
                 else if(menuItem.getItemId()==R.id.book){
                     FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();

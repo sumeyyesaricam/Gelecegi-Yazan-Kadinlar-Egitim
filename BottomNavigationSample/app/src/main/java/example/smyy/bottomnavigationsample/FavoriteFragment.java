@@ -26,7 +26,9 @@ public class FavoriteFragment extends Fragment {
     }
 
     private void calculate() {
-        if (editUserWeight.getText().toString().length() > 0 && editUserLenght.getText().toString().length() > 0) {
+        if (editUserWeight.getText().toString().length() > 0
+                && editUserLenght.getText().toString().length()
+                > 0) {
             float userWeight =  Float.parseFloat(editUserWeight.getText().toString());
             float userLength = Float.parseFloat(editUserLenght.getText().toString());
             if(userLength>0){

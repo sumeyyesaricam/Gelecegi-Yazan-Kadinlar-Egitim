@@ -17,6 +17,8 @@ import com.example.gezginapp.R;
 import java.util.ArrayList;
 import java.util.List;
 
+import static java.security.AccessController.getContext;
+
 public class HomeFragment extends Fragment {
 
     List<Place> postList = new ArrayList<Place>();

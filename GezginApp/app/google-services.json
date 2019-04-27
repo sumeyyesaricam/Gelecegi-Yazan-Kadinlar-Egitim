@@ -1,153 +1,34 @@
 {
   "project_info": {
-    "project_number": "141688643580",
-    "firebase_url": "https://blogyazilar.firebaseio.com",
-    "project_id": "blogyazilar",
-    "storage_bucket": "blogyazilar.appspot.com"
+    "project_number": "939444809690",
+    "firebase_url": "https://gezginapp-c3480.firebaseio.com",
+    "project_id": "gezginapp-c3480",
+    "storage_bucket": "gezginapp-c3480.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:141688643580:android:c18a317fea1fd36d",
+        "mobilesdk_app_id": "1:939444809690:android:c18a317fea1fd36d",
         "android_client_info": {
           "package_name": "com.example.gezginapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "141688643580-drjs4ja58qhvh8caj6aprluhs9irc8r7.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.gezginapp",
-            "certificate_hash": "7cd004cb842f96c44d621ac8950270d3ddefc02b"
-          }
-        },
-        {
-          "client_id": "141688643580-ve9dcmtktc74pl2h2120uhqih4055nmc.apps.googleusercontent.com",
+          "client_id": "939444809690-vcm288ojbo87re82f9tiaie3f3t2865d.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBDu9r3Ik9LfLzKPgULyflMnf0dv27D6SQ"
+          "current_key": "AIzaSyDU1NXYS9hR-ZBrzPPYVF_vpAnK76wpo-s"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "141688643580-ve9dcmtktc74pl2h2120uhqih4055nmc.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:141688643580:android:46c33aaea5421472",
-        "android_client_info": {
-          "package_name": "com.murat.books"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "141688643580-itsaio6htufmv0ailf83h677vdet7n7f.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.murat.books",
-            "certificate_hash": "7cd004cb842f96c44d621ac8950270d3ddefc02b"
-          }
-        },
-        {
-          "client_id": "141688643580-ve9dcmtktc74pl2h2120uhqih4055nmc.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBDu9r3Ik9LfLzKPgULyflMnf0dv27D6SQ"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "141688643580-ve9dcmtktc74pl2h2120uhqih4055nmc.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:141688643580:android:77933478f216c785",
-        "android_client_info": {
-          "package_name": "com.murat.firebasefacebooklogin"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "141688643580-02usageqrm975vh1gd71498433j0jfm1.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.murat.firebasefacebooklogin",
-            "certificate_hash": "abf948b78aca43f3192bb1560ce71c31645f9c26"
-          }
-        },
-        {
-          "client_id": "141688643580-ve9dcmtktc74pl2h2120uhqih4055nmc.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBDu9r3Ik9LfLzKPgULyflMnf0dv27D6SQ"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "141688643580-ve9dcmtktc74pl2h2120uhqih4055nmc.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:141688643580:android:34460b8a2be41010",
-        "android_client_info": {
-          "package_name": "com.murat.gyk401_sqlite_firebase"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "141688643580-e2ef3h6rml6url13mvhk1qo9cr2d4lkj.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.murat.gyk401_sqlite_firebase",
-            "certificate_hash": "7cd004cb842f96c44d621ac8950270d3ddefc02b"
-          }
-        },
-        {
-          "client_id": "141688643580-ve9dcmtktc74pl2h2120uhqih4055nmc.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBDu9r3Ik9LfLzKPgULyflMnf0dv27D6SQ"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "141688643580-ve9dcmtktc74pl2h2120uhqih4055nmc.apps.googleusercontent.com",
+              "client_id": "939444809690-vcm288ojbo87re82f9tiaie3f3t2865d.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

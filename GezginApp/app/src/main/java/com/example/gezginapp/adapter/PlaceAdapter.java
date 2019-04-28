@@ -1,4 +1,4 @@
-package com.example.gezginapp;
+package com.example.gezginapp.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -7,6 +7,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.gezginapp.R;
+import com.example.gezginapp.model.Place;
 
 import java.util.List;
 
@@ -44,9 +47,9 @@ public class PlaceAdapter extends RecyclerView.Adapter<PlaceAdapter.MyViewHolder
 
     @Override
     public void onBindViewHolder(final MyViewHolder holder, final int position) {
-        holder.post_description.setText(placeList.get(position).description);
-        holder.post_title.setText(String.valueOf(placeList.get(position).placeName));
-        holder.post_picture.setImageResource(placeList.get(position).placeImage);
+        holder.post_description.setText(placeList.get(position).getDescription());
+        holder.post_title.setText(String.valueOf(placeList.get(position).getPlaceName()));
+        holder.post_picture.setImageResource(placeList.get(position).getPlaceImage());
 
     }
 

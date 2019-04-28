@@ -1,4 +1,4 @@
-package com.example.gezginapp;
+package com.example.gezginapp.activity;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.gezginapp.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -65,7 +66,7 @@ public class RegisterActivity extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             Log.d(TAG, "createUserWithEmail:success");
                             FirebaseUser user = mAuth.getCurrentUser();
-                            Intent intent=new Intent(RegisterActivity.this,LoginActivity.class);
+                            Intent intent=new Intent(RegisterActivity.this, LoginActivity.class);
                             startActivity(intent);
                         } else {
                             Log.w(TAG, "createUserWithEmail:failure", task.getException());

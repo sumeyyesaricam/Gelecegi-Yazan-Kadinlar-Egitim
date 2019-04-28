@@ -1,4 +1,4 @@
-package com.example.gezginapp;
+package com.example.gezginapp.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -10,8 +10,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.gezginapp.model.Place;
+import com.example.gezginapp.adapter.PlaceAdapter;
+import com.example.gezginapp.R;
+
 import java.util.ArrayList;
 import java.util.List;
+
+import static java.security.AccessController.getContext;
 
 public class HomeFragment extends Fragment {
 

@@ -15,6 +15,8 @@ import android.view.MenuItem;
 import com.example.gezginapp.R;
 import com.example.gezginapp.fragment.HomeFragment;
 import com.example.gezginapp.fragment.NotFragment_;
+import com.example.gezginapp.fragment.ProfileFragment;
+import com.squareup.picasso.Picasso;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -44,16 +46,12 @@ public class MainActivity extends AppCompatActivity {
                         int id = menuItem.getItemId();
                         if (id == R.id.nav_home) {
                             fragment = new HomeFragment();
-                            loadFragment(fragment);
                         } else if (id == R.id.nav_profile) {
-                            fragment = new NotFragment_();
-                            loadFragment(fragment);
+                            fragment = new ProfileFragment();
                         } else if (id == R.id.nav_note) {
                             fragment = new NotFragment_();
-                            loadFragment(fragment);
-
                         }
-
+                        loadFragment(fragment);
                         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawerLayout);
                         drawer.closeDrawer(GravityCompat.START);
                         return true;
